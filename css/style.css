@@ -323,6 +323,7 @@ li > a:only-child:after { content: ''; }
   transition: opacity 0ms;
   visibility: hidden;
   opacity: 0;
+  overflow-y:auto;
 }
 
 .overlay:target {
